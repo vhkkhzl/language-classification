@@ -1,4 +1,3 @@
-# 10. Test Model
 import os
 import torch
 from tqdm.notebook import tqdm

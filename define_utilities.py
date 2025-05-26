@@ -1,4 +1,3 @@
-# 3. Define utilities
 # 計算語言數量與字元數量
 num_langs = len(words_dict.keys())
 num_chars = len(characters_all)

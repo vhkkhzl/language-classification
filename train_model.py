@@ -1,4 +1,3 @@
-# 9. Train model
 from tqdm.notebook import tqdm
 import matplotlib.pyplot as plt
 import pandas as pd

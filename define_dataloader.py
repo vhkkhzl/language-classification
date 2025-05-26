@@ -1,4 +1,3 @@
-# 6. Define dataloader
 import os
 from torch.utils.data import DataLoader
 

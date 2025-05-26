@@ -1,4 +1,3 @@
-# 4. Split data
 import pandas as pd
 from tqdm.notebook import tqdm
 from sklearn.model_selection import train_test_split

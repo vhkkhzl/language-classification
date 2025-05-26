@@ -1,4 +1,3 @@
-# 1. Load data
 import os
 import glob
 import pandas as pd
