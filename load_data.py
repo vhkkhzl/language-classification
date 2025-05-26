@@ -15,7 +15,6 @@ for file_path in file_paths:
         words = file.readlines()
         words = [word.strip().lower() for word in words]
         words_dict[language] = words
-print(words_dict['German'][-10:])
 
 # 顯示每個語言的單詞數量
 for language, words in words_dict.items():
