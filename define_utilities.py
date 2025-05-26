@@ -1,4 +1,6 @@
-# 計算語言數量與字元數量
+from load_data import words_dict
+from clean_text import characters_all
+
 num_langs = len(words_dict.keys())
 num_chars = len(characters_all)
 print(num_langs, num_chars)

@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from define_utilities import *
 
 # 設定模型參數
 hidden_size = 24
@@ -36,7 +37,3 @@ print(model)
 # 檢查模型參數型態
 for p in model.parameters():
     print(p.dtype)
-
-# (可選) #summary(model, input_size=(max_timesteps, num_chars))
-# (可選) #writer.add_graph(model, X)
-# (可選) #writer.close()

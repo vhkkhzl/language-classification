@@ -1,5 +1,7 @@
 import torch
 from torch.utils.data import Dataset
+from split_data import *
+from define_utilities import *
 
 # 定義自訂的 Dataset
 class WordDataset(Dataset):

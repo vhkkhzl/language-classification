@@ -1,6 +1,7 @@
 import unicodedata
 import string
 import copy
+from load_data import words_dict
 
 # 取得所有出現過的字元
 characters = set()

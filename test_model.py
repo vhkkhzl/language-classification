@@ -5,6 +5,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from define_dataloader import *
+from define_model import *
 
 # 載入模型
 path = os.path.join("storage", "models", "language-words", "classifier.pth")

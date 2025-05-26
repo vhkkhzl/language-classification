@@ -1,6 +1,10 @@
 from tqdm.notebook import tqdm
 import matplotlib.pyplot as plt
 import pandas as pd
+from define_dataloader import train_loader
+from define_model import model
+from test_model import device
+from set_optimizer import *
 
 # 訓練參數
 epochs = 100

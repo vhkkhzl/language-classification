@@ -1,7 +1,6 @@
 import os
 import glob
 import pandas as pd
-from tqdm.notebook import tqdm
 
 # 設定資料夾路徑
 data_folder = os.path.join("storage", "data", "language-words")

@@ -1,6 +1,7 @@
 import pandas as pd
 from tqdm.notebook import tqdm
 from sklearn.model_selection import train_test_split
+from load_data import words_dict
 
 # 將 words_dict 轉為 DataFrame
 words_df = []

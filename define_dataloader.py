@@ -1,5 +1,6 @@
 import os
 from torch.utils.data import DataLoader
+from define_dataset import *
 
 # 設定 batch size
 train_batch_size = 128

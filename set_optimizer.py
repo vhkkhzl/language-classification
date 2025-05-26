@@ -1,6 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+from define_dataloader import *
+from define_model import model
+from test_model import device
 
 # 學習率與 scheduler 設定
 lr = 0.01
